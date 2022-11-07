@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ai-image-rest-api"
+version = "0.1.0"
+description = ""
+authors = ["Kolbyshev, Maksim <maksim.kolbyshev@saint-gobain.com>"]
+readme = "README.md"
+packages = [{include = "ai_image_rest_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
